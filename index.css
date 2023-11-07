@@ -70,17 +70,21 @@
 .home-container07 {
   flex: 0 0 auto;
   width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
+}
+.home-image2 {
+  width: 200px;
+  object-fit: cover;
 }
 .home-container08 {
   flex: 0 0 auto;
-  width: auto;
-  height: auto;
+  width: 100%;
   display: flex;
   align-items: flex-start;
-  flex-direction: column;
+  justify-content: flex-start;
 }
 .home-container09 {
   flex: 0 0 auto;
@@ -92,28 +96,27 @@
 }
 .home-container10 {
   flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-container11 {
+  flex: 0 0 auto;
   width: 200px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 100px;
   display: flex;
   align-items: flex-end;
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-container11 {
+.home-container12 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.home-container12 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
 }
 .home-container13 {
   flex: 0 0 auto;
@@ -125,6 +128,14 @@
 }
 .home-container14 {
   flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-container15 {
+  flex: 0 0 auto;
   width: 200px;
   border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 100px;
@@ -133,20 +144,12 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-container15 {
+.home-container16 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.home-container16 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
 }
 .home-container17 {
   flex: 0 0 auto;
@@ -158,6 +161,14 @@
 }
 .home-container18 {
   flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-container19 {
+  flex: 0 0 auto;
   width: 200px;
   border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 100px;
@@ -166,7 +177,40 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-container19 {
+.home-container20 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.home-container21 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-container22 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-container23 {
+  flex: 0 0 auto;
+  width: 200px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-container24 {
   flex: 0 0 auto;
   width: 100%;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -177,7 +221,7 @@
 .home-link2 {
   text-decoration: none;
 }
-.home-container20 {
+.home-container25 {
   flex: 0 0 auto;
   width: 100%;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -237,39 +281,46 @@
     font-family: Times New Roman;
     background-color: rgb(25, 144, 51);
   }
-  .home-text07 {
-    font-size: 24px;
-  }
-  .home-text08 {
-    font-family: Times New Roman;
-  }
-  .home-text09 {
-    font-family: Times New Roman;
-  }
   .home-container07 {
+    height: 8px;
+    opacity: 0;
+    padding-bottom: 1px;
+  }
+  .home-image2 {
+    width: var(--dl-size-size-xxlarge);
+  }
+  .home-container08 {
     width: 285px;
     height: 43px;
   }
-  .home-text11 {
+  .home-text07 {
     font-size: 20px;
     box-shadow: inherit;
     font-style: normal;
     font-family: Courier New;
     font-weight: 700;
   }
-  .home-text12 {
+  .home-text08 {
     font-family: Courier New;
   }
-  .home-container10 {
-    width: 120px;
+  .home-container11 {
+    width: 170px;
     height: 38px;
-    opacity: 0;
   }
-  .home-text13 {
+  .home-text09 {
     font-size: 36px;
     font-family: Times New Roman;
   }
-  .home-container11 {
+  .home-text10 {
+    font-size: 24px;
+  }
+  .home-text11 {
+    font-family: Times New Roman;
+  }
+  .home-text12 {
+    font-family: Times New Roman;
+  }
+  .home-container12 {
     width: 285px;
     height: 43px;
   }
@@ -283,7 +334,7 @@
   .home-text15 {
     font-family: Courier New;
   }
-  .home-container14 {
+  .home-container15 {
     width: 13px;
     height: 38px;
     opacity: 0;
@@ -292,7 +343,7 @@
     font-size: 36px;
     font-family: Times New Roman;
   }
-  .home-container15 {
+  .home-container16 {
     width: 285px;
     height: 43px;
   }
@@ -306,7 +357,7 @@
   .home-text18 {
     font-family: Courier New;
   }
-  .home-container18 {
+  .home-container19 {
     width: 53px;
     height: 38px;
     opacity: 0;
@@ -315,20 +366,43 @@
     font-size: 36px;
     font-family: Times New Roman;
   }
+  .home-container20 {
+    width: 285px;
+    height: 43px;
+  }
   .home-text20 {
-    font-size: 24px;
+    font-size: 20px;
+    box-shadow: inherit;
+    font-style: normal;
+    font-family: Courier New;
+    font-weight: 700;
   }
   .home-text21 {
-    font-family: Times New Roman;
+    font-family: Courier New;
+  }
+  .home-container23 {
+    width: 25px;
+    height: 38px;
+    opacity: 0;
   }
   .home-text22 {
+    font-size: 36px;
+    font-family: Times New Roman;
+  }
+  .home-text23 {
+    font-size: 24px;
+  }
+  .home-text24 {
+    font-family: Times New Roman;
+  }
+  .home-text25 {
     font-family: Times New Roman;
   }
   .home-link1 {
     font-family: Times New Roman;
     background-color: rgb(25, 144, 51);
   }
-  .home-container19 {
+  .home-container24 {
     height: 17px;
     opacity: 0;
   }
@@ -337,7 +411,7 @@
     text-decoration: none;
     background-color: rgb(25, 144, 51);
   }
-  .home-container20 {
+  .home-container25 {
     height: 17px;
     opacity: 0;
   }
