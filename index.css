@@ -11,6 +11,15 @@
   width: 722px;
   object-fit: cover;
 }
+.home-container01 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
 .home-text {
   font-style: normal;
   font-family: "Courier New";
@@ -19,18 +28,56 @@
 .home-text01 {
   font-family: "Times New Roman";
 }
+.home-container02 {
+  width: 100%;
+  height: 17px;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-style: hidden;
+  border-width: 1px;
+}
+.home-container03 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.home-container04 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-container05 {
+  flex: 0 0 auto;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-container06 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 .home-image1 {
   width: var(--dl-size-size-xxlarge);
   object-fit: cover;
 }
-.home-container01 {
+.home-container07 {
   width: 287px;
   height: 41px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.home-container02 {
+.home-container08 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -38,7 +85,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-container03 {
+.home-container09 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -55,7 +102,7 @@
 .home-text05 {
   font-family: "Courier New";
 }
-.home-container04 {
+.home-container10 {
   flex: 0 0 auto;
   width: 126px;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -74,27 +121,33 @@
   font-family: "Times New Roman";
   background-color: var(--dl-color-success-300);
 }
-.home-container05 {
-  width: 100%;
-  height: 17px;
+.home-container11 {
+  flex: 0 0 auto;
+  width: 300px;
+  height: 400px;
   display: flex;
   align-items: flex-start;
-  border-color: var(--dl-color-gray-black);
-  border-style: hidden;
-  border-width: 1px;
+  flex-direction: column;
+}
+.home-container12 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 .home-image2 {
   width: var(--dl-size-size-xxlarge);
   object-fit: cover;
 }
-.home-container06 {
+.home-container13 {
   flex: 0 0 auto;
   width: 285px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.home-container07 {
+.home-container14 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -102,7 +155,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-container08 {
+.home-container15 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -119,7 +172,7 @@
 .home-text08 {
   font-family: "Courier New";
 }
-.home-container09 {
+.home-container16 {
   flex: 0 0 auto;
   width: 137px;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -137,14 +190,14 @@
 .home-text10 {
   font-family: "Times New Roman";
 }
-.home-container10 {
+.home-container17 {
   flex: 0 0 auto;
   width: 291px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.home-container11 {
+.home-container18 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -152,7 +205,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-container12 {
+.home-container19 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -160,16 +213,16 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text14 {
+.home-text13 {
   font-size: 20px;
   font-style: normal;
   font-family: "Courier New";
   font-weight: 700;
 }
-.home-text15 {
+.home-text14 {
   font-family: "Courier New";
 }
-.home-container13 {
+.home-container20 {
   flex: 0 0 auto;
   width: 35px;
   height: 41px;
@@ -181,18 +234,18 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text16 {
+.home-text15 {
   font-size: 36px;
   font-family: "Times New Roman";
 }
-.home-container14 {
+.home-container21 {
   flex: 0 0 auto;
   width: 291px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.home-container15 {
+.home-container22 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -200,7 +253,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-container16 {
+.home-container23 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -208,18 +261,18 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text17 {
+.home-text16 {
   font-size: 20px;
   font-style: normal;
   font-family: "Courier New";
   font-weight: 700;
 }
-.home-text18 {
+.home-text17 {
   font-size: 16px;
   font-family: "Courier New";
   font-weight: 400;
 }
-.home-container17 {
+.home-container24 {
   flex: 0 0 auto;
   width: 73px;
   height: 42px;
@@ -231,18 +284,18 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text19 {
+.home-text18 {
   font-size: 36px;
   font-family: "Times New Roman";
 }
-.home-container18 {
+.home-container25 {
   flex: 0 0 auto;
   width: 291px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.home-container19 {
+.home-container26 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -250,7 +303,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-container20 {
+.home-container27 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -258,16 +311,16 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text20 {
+.home-text19 {
   font-size: 20px;
   font-style: normal;
   font-family: "Courier New";
   font-weight: 700;
 }
-.home-text21 {
+.home-text20 {
   font-family: "Courier New";
 }
-.home-container21 {
+.home-container28 {
   flex: 0 0 auto;
   width: 44px;
   height: 31px;
@@ -279,18 +332,18 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text22 {
+.home-text21 {
   font-size: 36px;
   font-family: "Times New Roman";
 }
-.home-text23 {
+.home-text22 {
   font-family: "Times New Roman";
 }
 .home-link1 {
   font-family: "Times New Roman";
   background-color: rgb(25, 144, 51);
 }
-.home-container22 {
+.home-container29 {
   width: 100%;
   height: 16px;
   display: flex;
@@ -304,7 +357,7 @@
   text-decoration: none;
   background-color: rgb(25, 144, 51);
 }
-.home-container23 {
+.home-container30 {
   flex: 0 0 auto;
   width: 100%;
   height: 16px;
@@ -317,4 +370,9 @@
 .home-link3 {
   font-family: "Times New Roman";
   background-color: rgb(25, 144, 51);
+}
+@media(max-width: 767px) {
+  .home-image {
+    width: 553px;
+  }
 }
